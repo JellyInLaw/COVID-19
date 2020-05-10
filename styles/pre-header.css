@@ -1,0 +1,21 @@
+.pre-header .container {
+  padding: 18px 450px;
+}
+
+.pre-header * {
+  color: #fff;
+}
+
+.pre-header {
+  font-size: 16px;
+  background-color: #112950;
+}
+
+.pre-header__link::after {
+  margin-left: 8px;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/arrow.svg) no-repeat center center;
+}

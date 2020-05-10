@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #112950;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 125px 220px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 37px;
+}
