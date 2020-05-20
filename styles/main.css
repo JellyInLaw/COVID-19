@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   color: #112950;
 }
@@ -8,12 +8,57 @@
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 125px 220px;
+  padding: 90px 220px;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Inter", sans-serif;
+h2 {
+  font-family: "Roboto", sans-serif;
   font-size: 37px;
+  letter-spacing: 0.617px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.308px;
+}
+
+p {
+  line-height: 30px;
+  letter-spacing: 0.15px;
+}
+
+.button {
+  padding: 18px 32px;
+  letter-spacing: 0.15px;
+  border-radius: 30px;
+  border: none;
+  background: none;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 125px 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 125px 50px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  h1,
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+
+  .container {
+    padding: 55px 20px;
+  }
 }
