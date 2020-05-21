@@ -70,9 +70,7 @@
 
 .info-block__button {
   margin-top: auto;
-  border: 1px solid #2e85ff;
   align-self: flex-start;
-  color: #2174ea;
 }
 
 .info-block__link {
