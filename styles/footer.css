@@ -1,0 +1,111 @@
+.footer {
+  background-color: #f5f8fb;
+}
+
+.footer .container {
+  padding-bottom: 40px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e6ed;
+  padding-bottom: 75px;
+}
+
+.products,
+.company,
+.developers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products__title,
+.company__title,
+.developers__title {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #7b8ba5;
+  margin-bottom: 30px;
+}
+
+.products,
+.company {
+  margin-right: 80px;
+}
+
+.products__item,
+.company__item,
+.developers__item {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.products__item:hover,
+.company__item:hover,
+.developers__item:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-left: auto;
+}
+
+.social-links__link {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+}
+
+.fb {
+  background: url(../img/fb.png) no-repeat center center;
+}
+
+.tw {
+  background: url(../img/tw.png) no-repeat center center;
+}
+
+.lidn {
+  background: url(../img/lidn.png) no-repeat center center;
+}
+
+.ytube {
+  background: url(../img/ytube.png) no-repeat center center;
+}
+
+.footer__bottom {
+  padding-top: 40px;
+}
+.copyright {
+  font-size: 15px;
+  color: #7b8ba5;
+}
+
+@media (max-width: 768px) {
+  .footer__top {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 35px;
+  }
+
+  .social-links {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .footer__top {
+    justify-content: space-between;
+  }
+
+  .products,
+  .company {
+    margin-right: 35px;
+  }
+}

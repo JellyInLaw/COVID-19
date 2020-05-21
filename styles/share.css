@@ -1,0 +1,25 @@
+.share {
+  background-color: #f5f8fb;
+}
+
+.share .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.share__title {
+  margin-bottom: 30px;
+}
+
+.share__text {
+  text-align: center;
+  max-width: 486px;
+  margin-bottom: 42px;
+}
+
+.share__button:hover {
+  color: #fff;
+  background-color: #2e85ff;
+}
